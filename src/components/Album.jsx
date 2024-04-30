@@ -1,25 +1,25 @@
 import "./Album.css";
 import { useState } from "react";
 import { motion } from "framer-motion";
-// import img1 from "../../src/img/img1.png";
-// import img2 from "../../src/img/img2.jpg";
-// import img3 from "../../src/img/img3.jpg";
-// import img4 from "../../src/img/img4.jpg";
-// import img5 from "../../src/img/img5.jpg";
-// import img6 from "../../src/img/img6.jpg";
-// import img7 from "../../src/img/img7.jpg";
-// import img8 from "../../src/img/img8.jpg";
-// import img9 from "../../src/img/img9.jpg";
-// import img10 from "../../src/img/img10.jpg";
-// import img11 from "../../src/img/img11.jpg";
-// import img12 from "../../src/img/img12.jpg";
-// import img13 from "../../src/img/img13.jpg";
-// import img14 from "../../src/img/img14.jpg";
-// import img15 from "../../src/img/img15.jpg";
-// import img16 from "../../src/img/img16.jpg";
-// import img17 from "../../src/img/img17.jpg";
-// import img18 from "../../src/img/img18.jpg";
-// import img19 from "../../src/img/img19.jpg";
+import img1 from "../../src/img/img1.png";
+import img2 from "../../src/img/img2.jpg";
+import img3 from "../../src/img/img3.jpg";
+import img4 from "../../src/img/img4.jpg";
+import img5 from "../../src/img/img5.jpg";
+import img6 from "../../src/img/img6.jpg";
+import img7 from "../../src/img/img7.jpg";
+import img8 from "../../src/img/img8.jpg";
+import img9 from "../../src/img/img9.jpg";
+import img10 from "../../src/img/img10.jpg";
+import img11 from "../../src/img/img11.jpg";
+import img12 from "../../src/img/img12.jpg";
+import img13 from "../../src/img/img13.jpg";
+import img14 from "../../src/img/img14.jpg";
+import img15 from "../../src/img/img15.jpg";
+import img16 from "../../src/img/img16.jpg";
+import img17 from "../../src/img/img17.jpg";
+import img18 from "../../src/img/img18.jpg";
+import img19 from "../../src/img/img19.jpg";
 
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
@@ -90,7 +90,7 @@ export default function Album() {
 
       {/* <div className="w-full h-[0.3px] bg-white"></div> */}
 
-      {/* {[
+      {[
         img1,
         img2,
         img3,
@@ -109,7 +109,7 @@ export default function Album() {
         img19,
       ].map((image) => (
         <Image id={image} />
-      ))} */}
+      ))}
     </>
   );
 }
