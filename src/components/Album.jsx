@@ -69,9 +69,9 @@ export default function Album() {
 
 
         <div className="flex  gap-3 ">
-          <h1 className="inline-block text-[10vw] text-center  text-yellow-600">Shot</h1>
-          <h1 className="text-[10vw] text-center text-slate-200">By</h1>
-          <h1 className="text-[10vw] text-center  text-green-600">Taha</h1>
+          <h1 className="inline-block text-[12vw] text-center  text-yellow-600">Shot</h1>
+          <h1 className="text-[12vw] text-center text-slate-200">By</h1>
+          <h1 className="text-[12vw] text-center  text-green-600">Taha</h1>
         </div>
 
         </div>
@@ -79,10 +79,10 @@ export default function Album() {
 
         <div className=" mt-[15vw]">
         <div className="flex gap-[0.7vw] mt-[10vw] w-[17vw] rounded-[0.7vw]  justify-center ">
-          <h1 className="text-[2vw] text-center  text-green-600">Swipe</h1>
-          <h1 className="text-[2vw] text-center text-green-600">up</h1>
-          <h1 className="text-[2vw] text-center  text-green-600">for</h1>
-          <h1 className="text-[2vw] text-center  text-green-600">gallery</h1>
+          <h1 className="text-[4vw] text-center  text-white">Swipe</h1>
+          <h1 className="text-[4vw] text-center text-white">up</h1>
+          <h1 className="text-[4vw] text-center  text-white">for</h1>
+          <h1 className="text-[4vw] text-center  text-white">gallery</h1>
         </div>
         </div>
 
