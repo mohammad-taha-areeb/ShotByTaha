@@ -20,6 +20,17 @@ import img16 from "../../src/img/img16.jpg";
 import img17 from "../../src/img/img17.jpg";
 import img18 from "../../src/img/img18.jpg";
 import img19 from "../../src/img/img19.jpg";
+import img20 from "../../src/img/IMG_20230331_172705.jpg";
+import img21 from "../../src/img/IMG_20230405_234633.jpg";
+import img22 from "../../src/img/IMG_20230724_234459_219.webp";
+import img23 from "../../src/img/IMG_20230724_234539_585.webp";
+import img24 from "../../src/img/IMG_20230927_070944.jpg";
+import img25 from "../../src/img/IMG_20231208_235720.jpg";
+import img26 from "../../src/img/IMG_20240122_174635_841.webp";
+import img27 from "../../src/img/IMG_20240219_153935.jpg";
+import img28 from "../../src/img/IMG_20240512_014332.jpg";
+
+
 
 const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
 const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
@@ -107,6 +118,15 @@ export default function Album() {
         img17,
         img18,
         img19,
+        img20,
+        img21,
+        img22,
+        img23,
+        img24,
+        img25,
+        img26,
+        img27,
+        img28,
       ].map((image) => (
         <Image id={image} />
       ))}
